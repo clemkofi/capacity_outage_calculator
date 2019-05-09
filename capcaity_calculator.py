@@ -14,7 +14,7 @@ power_plants = {
     'Capacity' : [900.0, 360.0, 140.0, 300.0, 320.0, 100.0, 70.0, 200.0, 100.0, 230.0, 180.0, 340.0, 450.0, 220.0, 39.6, 18.0, 320.0, 660.0],
     'Avalability' : [0.90, 0.85, 0.72, 0.65, 0.85, 0.88, 0.85, 0.85, 0.92, 0.90, 0.92, 0.92, 0.90, 0.90, 0.70, 0.65, 0.90, 0.70],
     'Demand' :  {
-        '2018' : 2523.0
+        '2018' : 3400.0
     },
     'Growth' : 0.1511
 }
@@ -125,7 +125,7 @@ def calculate_LOLE(row):
     return ("-")
 
 # generate all the values for the years specified
-calculate_system_peak(years=30)
+calculate_system_peak(years=32)
 system_peaks = {
     'year' : [],
     'system_peak' : []
